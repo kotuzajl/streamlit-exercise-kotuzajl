@@ -10,8 +10,8 @@ st.title("Medals Visualization")
 medal = st.selectbox("Medal type", ["gold",'silver','bronze'])
 
 #Checkboxes
-show_bar = st.Checkboxes("Show Bar Chart", value = True)
-show_pie = st.Checkboxes("Show Pie Chart", Value = True)
+show_bar = st.checkboxes("Show Bar Chart", value = True)
+show_pie = st.checkboxes("Show Pie Chart", value = True)
 
 #two-col structure
 col1,col2 = st.columns(2)
